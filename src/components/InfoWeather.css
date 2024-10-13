@@ -1,0 +1,38 @@
+.weather-container {
+    background-color: #7f8e9e;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 56px;
+    }
+}
+
+.temperature {
+    font-size: 2rem;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
