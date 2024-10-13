@@ -1,4 +1,4 @@
-import "./weather5days.css";
+import "../components/Weather5days.css";
 
 function Weather5days({ weather5days }) {
   console.log(weather5days);
