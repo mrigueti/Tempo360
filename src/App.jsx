@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import InfoWeather from "./components/InfoWeather";
 import Weather5days from "./components/Weather5days";
+import { Helmet } from 'react-helmet';
 
 function App() {
   const [weather, setWeather] = useState();
@@ -25,6 +26,12 @@ function App() {
 
   return (
     <div className="container">
+      <Helmet>
+        <title>Tempo360 - Previsão do Tempo</title>
+        <meta name="description" content="Tempo360: Sua fonte confiável para previsão do tempo em tempo real e previsões para os próximos 5 dias. Consulte agora!" />
+        <meta name="keywords" content="previsão do tempo, clima, meteorologia, temperatura, chuva, vento, umidade, previsão de 5 dias" />
+      </Helmet>
+
       <h1>Tempo360</h1>
 
       <input ref={inputRef} type="text" placeholder="Digite o nome do local" />
