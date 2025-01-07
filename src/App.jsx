@@ -25,7 +25,7 @@ function App() {
 
   return (
   <div className="container">
-    <h1>Previsão do Tempo</h1>
+    <h1>Tempo360</h1>
 
     <input ref={inputRef} type="text" placeholder="Digite o Nome Do Local" /> 
     <button onClick={SearchCity}>Buscar</button>
