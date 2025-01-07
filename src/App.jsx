@@ -27,7 +27,7 @@ function App() {
   <div className="container">
     <h1>Tempo360</h1>
 
-    <input ref={inputRef} type="text" placeholder="Digite o Nome Do Local" /> 
+    <input ref={inputRef} type="text" placeholder="Digite o nome do local" /> 
     <button onClick={SearchCity}>Buscar</button>
 
     { weather && <InfoWeather weather={weather} /> }
