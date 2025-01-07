@@ -3,4 +3,4 @@ made with React.
 
 hosted by vercel: [Link](https://tempo360.vercel.app)
 
-![image](https://github.com/user-attachments/assets/2edeb947-0eaf-4361-b82f-a93455132dfb)
+![image](https://github.com/user-attachments/assets/479804df-9d50-444c-ae5a-526d564849ae)
